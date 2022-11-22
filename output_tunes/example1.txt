@@ -1,0 +1,38 @@
+##################### HYPERPARAMETERS ######################
+
+num_tunes: 3
+max_length: 1024
+top_p: 0.9
+temperature: 1.0
+seed: 0
+
+######################## INPUT TEXT ########################
+
+This is a traditional Irish dance music.
+Note Length-1/8
+Meter-6/8
+Key-D
+
+####################### OUTPUT TUNES #######################
+
+X:1
+L:1/8
+M:6/8
+K:D
+ A | BEE BEE | Bdf edB | BAF FEF | DFA BAF | BEE BEE | Bdf edB | BAF DAF | FED E2 :: A |
+ Bef gfe | faf edB | BAF FEF | DFA BAF | Bef gfe | faf edB | BAF DAF | FED E2 :|
+
+X:2
+L:1/8
+M:6/8
+K:D
+ A |: DED F2 A | d2 f ecA | G2 B F2 A | E2 F GFE | DED F2 A | d2 f ecA | Bgf edc |1 d3 d2 A :|2
+ d3 d2 a || a2 f d2 e | f2 g agf | g2 e c2 d | e2 f gfe | fed gfe | agf bag | fed cde | d3 d2 a |
+ agf fed | Adf agf | gfe ecA | Ace gfe | fed gfe | agf bag | fed cde | d3 d2 ||
+
+X:3
+L:1/8
+M:6/8
+K:D
+ BEE BEE | Bdf edB | BAF FEF | DFA dBA | BEE BEE | Bdf edB | BAF FEF |1 DED DFA :|2 DED D2 e |:
+ faf edB | BAF DFA | BAF FEF | DFA dBA | faf edB | BAF DFA | BdB AFA |1 DED D2 e :|2 DED DFA ||

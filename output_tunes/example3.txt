@@ -1,0 +1,47 @@
+##################### HYPERPARAMETERS ######################
+
+num_tunes: 3
+max_length: 1024
+top_p: 0.9
+temperature: 1.0
+seed: 0
+
+######################## INPUT TEXT ########################
+
+This is a Chinese folk song from the Jiangnan region. It was created during the Qianlong era (1735-1796) of the Qing dynasty. Over time, many regional variations were created, and the song gained popularity both in China and abroad. One version of the song describes a custom of giving jasmine flowers, popular in the southern Yangtze delta region of China.
+
+####################### OUTPUT TUNES #######################
+
+X:1
+L:1/8
+Q:1/4=100
+M:2/4
+K:C
+"^Slow" DA A2 | GA c2- | c2 G2 | c2 GF | GA/G/ F2 | E2 DC | DA A2 | GA c2- | c2 GA | cd- d2 |
+ cA c2- | c2 GA | cd- d2 | cA c2- | c2 GA | c2 A2 | c2 d2 | cA c2- | c2 c2 | A2 G2 | F2 AG | F2 ED |
+ CA,/C/ D2- | D2 CD | F2 A2 | G2 ED | CG A2 | G2 FD | CA,/C/ D2- | D2 CD | F2 A2 | G2 ED |
+ CG A2 | G2 FD | CA,/C/ D2- | D2 z2 :|
+
+X:2
+L:1/8
+Q:1/4=100
+M:2/4
+K:C
+"^ MDolce" Ac de | d2 AG | cA cd | A2 AG | E2 ED | CD E2- | E2 z2 | EG ed | c2 AG | cA cd |
+ A2 AG | E2 ED | CD E2- | E2 z2 |"^ howeveroda" Ac de | d2 AG | cA cd | A2 AG | E2 ED | CD E2- |
+ E2 z2 | A2 cA | GA E2- | E2 z2 | GA cd | e2 ed | cd e2- | e2 z2 | ge d2 | cd c2- | c2 z2 |
+ Ac de | d2 AG | cA cd | A2 AG | E2 ED | CD E2- | E2 z2 | EG ed | c2 AG | cA cd | A2 AG | E2 ED |
+ CD E2- | E2 z2 |"^DDtisata" Ac de | d2 AG | cA cd | A2 AG | E2 ED | CD E2- | E2 z2 | A2 cA |
+ GA E2- | E2 z2 | GA cd | e2 ed | cd e2- | e2 z2 | ge d2 | cd c2- | c2 z2 | Ac de | d2 AG |
+ cA cd | A2 AG | E2 ED | CD E2- | E2 z2 | Ac de | d2 AG | cA cd | A2 AG | E2 ED | CD E2- | E2 z2 |
+ Ac de | d2 AG | cA cd | A2 AG | E2 ED | CD E2- | E2 z2 |"^  Easy" Ac de | d2 AG | cA cd |
+ A2 AG | E2 ED | CD E2- | E2 z2 | Ac de | d2 AG | cA cd | A2 AG | E2 ED | CD E2- | E2 z2 |]
+
+X:3
+L:1/8
+Q:1/4=60
+M:4/4
+K:C
+"^S books defe.." AA A2 cdcc | AcAG A4- | A8 | A,4 CD C2 | A,4 cdcA | A2 GA- A4- | A2 GA A2 AA |
+ AG E2 D2 C2 | D6 ED | C2 D4 C2 | D2 C2 D4 | C2 A,2 CD C2 | A,4 cdcA | A2 GA- A4- | A2 GA A2 AA |
+ AG E2 D2 C2 | D6 z2 |]
