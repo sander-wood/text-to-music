@@ -82,12 +82,13 @@ optional arguments:
 ### BibTeX entry and citation info
 
 ```bibtex
-@misc{wu2022exploring,
-      title={Exploring the Efficacy of Pre-trained Checkpoints in Text-to-Music Generation Task}, 
-      author={Shangda Wu and Maosong Sun},
-      year={2022},
-      eprint={2211.11216},
-      archivePrefix={arXiv},
-      primaryClass={cs.SD}
+@inproceedings{
+wu2023exploring,
+title={Exploring the Efficacy of Pre-trained Checkpoints in Text-to-Music Generation Task}, 
+author={Shangda Wu and Maosong Sun},
+booktitle={The AAAI-23 Workshop on Creative AI Across Modalities},
+year={2023},
+url={https://openreview.net/forum?id=QmWXskBhesn}
 }
+
 ```
