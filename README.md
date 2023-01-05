@@ -4,7 +4,7 @@
 
 This language-music model takes [BART-base](https://huggingface.co/facebook/bart-base) fine-tunes on 282,870 English text-music pairs, where all scores are represented in ABC notation. It was introduced in the paper [Exploring the Efficacy of Pre-trained Checkpoints in Text-to-Music Generation Task](https://arxiv.org/abs/2211.11216) by Wu et al. and released in [huggingface](https://huggingface.co/sander-wood/text-to-music). 
 
-It is capable of generating complete and semantically consistent sheet music directly from descriptions in natural language based on text. To the best of our knowledge, this is the first model that achieves text-conditional symbolic music generation which is trained on real text-music pairs, where the music is generated entirely by the model and without any hand-crafted rules.
+It is capable of generating complete and semantically consistent sheet music directly from descriptions in natural language based on text. To the best of our knowledge, this is the first model that achieves text-conditional symbolic music generation which is trained on real text-music pairs, and the music is generated entirely by the model and without any hand-crafted rules.
 
 ## Intended uses & limitations
 
