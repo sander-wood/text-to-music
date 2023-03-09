@@ -78,10 +78,9 @@ optional arguments:
                         the temperature of the sampling operation
   -seed SEED            seed for randomstate
 ```
-
 <audio id="audio" controls="" preload="none">
       <source id="mp3" src="https://github.com/sander-wood/text-to-music/blob/main/rendered_audio_samples/chinese.mp3">
-</audio>
+      </audio>
 
 ### BibTeX entry and citation info
 
